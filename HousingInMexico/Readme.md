@@ -1,60 +1,107 @@
 # Mexico Real Estate Market Analysis
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter)
+![WorldQuant](https://img.shields.io/badge/WorldQuant-Applied%20Data%20Science-success)
+
 ## Project Overview
 
-This project explores the Mexican real estate market using Python to clean, analyze, and visualize housing data from multiple regions across Mexico. Developed as part of the **WorldQuant Applied Data Science Lab**, the project demonstrates a complete data analysis workflow—from importing raw datasets to uncovering insights about housing prices and the factors that influence them.
+This repository documents my work from the **Mexico Real Estate** module in the **WorldQuant Applied Data Science Lab**. Throughout this module, I applied Python-based data analysis techniques to explore residential property listings from different regions across Mexico.
 
-The analysis investigates how variables such as **location**, **property size**, and **price per square meter** vary across different states, helping answer important questions about Mexico's housing market.
+The notebooks walk through the complete analytical process—from working with tabular data and preparing datasets to performing exploratory data analysis and investigating how factors such as **location** and **property size** influence housing prices.
 
----
+Rather than serving as a standalone portfolio project, this repository represents an important milestone in my learning journey, where I strengthened my practical skills in data wrangling, visualization, and exploratory data analysis using real-world datasets.
 
-## Business Problem
 
-The real estate market generates vast amounts of property data, making it difficult for buyers, sellers, investors, and analysts to quickly identify market trends and pricing patterns.
+## Learning Context
 
-Using data analysis techniques, this project seeks to answer questions such as:
+This repository was developed as part of the **WorldQuant Applied Data Science Lab**, a hands-on program designed to build practical data analysis skills using real-world datasets.
 
-- Which Mexican states have the highest property prices?
-- Does a property's size significantly influence its price?
-- Is location a stronger predictor of price than size?
-- What patterns exist across different housing markets?
+The Mexico Real Estate module introduces learners to the complete data analysis workflow in Python. Through a series of guided notebooks, I learned how to import, clean, transform, visualize, and analyze tabular data while applying industry-standard libraries such as **Pandas**, **NumPy**, **Matplotlib**, and **Plotly Express**.
 
-Understanding these relationships enables more informed investment and purchasing decisions.
+Each notebook builds upon concepts from the previous one, allowing me to progressively develop practical skills in data wrangling, exploratory data analysis (EDA), and communicating insights from data.
 
----
 
-## Project Objectives
+## Learning Objectives
 
-The objectives of this project were to:
+Through this module, I developed practical experience in the fundamental stages of the data analysis process using Python. The learning objectives included:
 
-- Import and combine multiple real estate datasets.
-- Clean and prepare the data for analysis.
-- Explore property characteristics through descriptive statistics.
-- Visualize relationships between housing features.
-- Investigate how location and property size affect housing prices.
-- Communicate insights through clear visualizations.
+- Working with tabular data using Python and the Pandas library.
+- Importing and combining multiple real-world datasets.
+- Cleaning and preparing data for analysis through data wrangling techniques.
+- Performing exploratory data analysis (EDA) using descriptive statistics and visualizations.
+- Investigating relationships between housing prices, property size, and geographic location.
+- Communicating analytical findings through well-structured Jupyter Notebooks and visualizations.
 
----
 
-## Dataset
+## Dataset Overview
 
-The project uses three real estate datasets containing residential property listings from various states in Mexico.
+The analysis is based on residential property listing data collected from multiple regions across Mexico. The module provides three separate datasets, which are later combined into a single cleaned dataset for analysis.
 
-The datasets include variables such as:
+The datasets contain information about property characteristics, including:
 
 - Property price
 - Property size
-- State
-- Latitude
-- Longitude
-- Geographic information
+- State and location
+- Geographic coordinates (latitude and longitude)
+- Other listing attributes relevant to the analysis
 
-After cleaning and combining the datasets, a consolidated dataset was created for analysis.
+Working with multiple datasets provided an opportunity to practice data importation, inspection, cleaning, transformation, and consolidation before performing exploratory data analysis.
+
+
+## Notebook Breakdown
+
+The repository is organized into a series of Jupyter Notebooks that progressively build practical data analysis skills.
+
+### 01 – Tabular and Python Data Structures
+
+Introduces working with tabular data in Python using fundamental data structures and the Pandas library. This notebook establishes the foundation for the rest of the module by demonstrating how to access, inspect, and manipulate real estate data.
 
 ---
 
-## Tools & Technologies
+### 02 – Data Wrangling
 
+Focuses on preparing data for analysis by importing multiple datasets, inspecting their structure, cleaning inconsistencies, and combining them into a single analytical dataset. This stage emphasizes the importance of data quality before analysis.
+
+---
+
+### 03 – Exploratory Data Analysis
+
+Explores the cleaned dataset using descriptive statistics and visualizations. Various plots are created to understand the distribution of housing prices, identify patterns, and investigate relationships between different variables.
+
+---
+
+### 04 – Location or Size
+
+Investigates how different factors influence property prices by comparing the effects of geographic location and property size. The notebook applies the techniques learned in previous sections to answer analytical questions using data visualizations and statistical summaries.
+
+
+## Skills Developed
+
+Throughout this module, I strengthened both my technical and analytical skills by working with real-world housing data in Python. The key skills developed include:
+
+### Data Preparation
+- Importing tabular datasets into Python.
+- Inspecting data structures and data types.
+- Cleaning and preparing datasets for analysis.
+- Combining multiple datasets into a single analytical dataset.
+
+### Data Analysis
+- Performing exploratory data analysis (EDA).
+- Generating descriptive statistics.
+- Identifying trends and relationships within the data.
+- Comparing variables to answer analytical questions.
+
+### Data Visualization
+- Creating static visualizations using Matplotlib.
+- Building interactive visualizations with Plotly Express.
+- Using charts to communicate findings effectively.
+
+### Python & Libraries
 - Python
 - Pandas
 - NumPy
@@ -62,36 +109,20 @@ After cleaning and combining the datasets, a consolidated dataset was created fo
 - Plotly Express
 - Jupyter Notebook
 
----
 
-## Project Workflow
+## Tools & Technologies
 
-```text
-Raw Datasets
-      │
-      ▼
-Data Import
-      │
-      ▼
-Data Wrangling
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-Visualization
-      │
-      ▼
-Location vs Size Analysis
-      │
-      ▼
-Insights & Conclusions
-```
+The following tools and technologies were used throughout this module:
 
----
+| Tool / Technology | Purpose |
+|-------------------|---------|
+| **Python** | Primary programming language used for data analysis. |
+| **Pandas** | Data importation, cleaning, transformation, and manipulation. |
+| **NumPy** | Numerical operations and array-based computations. |
+| **Matplotlib** | Creating static data visualizations. |
+| **Plotly Express** | Building interactive charts for exploratory analysis. |
+| **Jupyter Notebook** | Developing and documenting the analysis in an interactive environment. |
+
 
 ## Repository Structure
 
@@ -99,8 +130,10 @@ Insights & Conclusions
 Mexico-Real-Estate/
 │
 ├── data/
-│   ├── raw/
-│   └── cleaned/
+│   ├── mexico-real-estate-1.csv
+│   ├── mexico-real-estate-2.csv
+│   ├── mexico-real-estate-3.csv
+│   └── mexico-real-estate-clean.csv
 │
 ├── notebooks/
 │   ├── 01_Tabular_and_Python_Data_Structures.ipynb
@@ -108,72 +141,32 @@ Mexico-Real-Estate/
 │   ├── 03_Exploratory_Data_Analysis.ipynb
 │   └── 04_Location_or_size.ipynb
 │
-├── images/
-│
 ├── README.md
-│
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
 ```
 
----
 
-## Analysis Highlights
+## Module Outcomes
 
-Throughout the project, several analytical techniques were applied, including:
+By completing the Mexico Real Estate module, I gained practical experience in applying Python to real-world data analysis tasks. The module strengthened my understanding of the complete analytical workflow, from preparing raw datasets to exploring relationships within the data using visualizations and descriptive statistics.
 
-- Data cleaning and preprocessing
-- Exploratory Data Analysis (EDA)
-- Descriptive statistics
-- Geographic analysis
-- Correlation analysis
-- Data visualization
-- Feature exploration
+Some of the key outcomes include:
 
-The project also investigates whether **location** or **property size** has a greater influence on housing prices.
+- Developing confidence in working with tabular datasets using Python and Pandas.
+- Applying data wrangling techniques to clean, transform, and consolidate multiple datasets.
+- Performing exploratory data analysis (EDA) to better understand housing market data.
+- Creating static and interactive visualizations to communicate patterns and trends.
+- Investigating how location and property characteristics can influence housing prices.
+- Building a strong foundation for more advanced topics such as statistical modeling and machine learning.
 
----
 
-## Key Skills Demonstrated
-
-- Data Cleaning
-- Data Wrangling
-- Exploratory Data Analysis
-- Data Visualization
-- Statistical Analysis
-- Python Programming
-- Business Insight Generation
-
----
-
-## What I Learned
-
-Through this project, I gained practical experience in:
-
-- Working with real-world housing datasets.
-- Cleaning inconsistent datasets.
-- Combining multiple datasets into a single analytical dataset.
-- Creating meaningful visualizations.
-- Communicating findings using data.
-- Applying Python libraries for end-to-end data analysis.
-
----
-
-## Future Improvements
-
-Future work may include:
-
-- Predictive modeling of housing prices.
-- Interactive dashboards.
-- Geographic mapping using GIS tools.
-- Machine learning regression models.
-- Time-series analysis if historical data becomes available.
-
----
-
-## Author
+## 👤 Author
 
 **Alice Mercy Wanjiru Koinange**
 
-Aspiring Data Analyst | Statistics & Programming Student | ALX Data Science Learner
+Statistics & Programming Student | Aspiring Data Analyst
 
-GitHub: https://github.com/Koinange-DataScience
+This repository is part of my learning journey through the **WorldQuant Applied Data Science Lab**, where I continue to build practical skills in Python, data analysis, and data visualization using real-world datasets.
+
+**GitHub:** https://github.com/Koinange-DataScience
